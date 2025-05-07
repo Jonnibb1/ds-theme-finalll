@@ -23,7 +23,7 @@ Template Name: General Template
                                     <?php
                                     endwhile;
                                 else: ?>
-                                    <p>Nothing yet to be displayed!</p>
+                                    <p><?php esc_html_e('Nothing yet to be displayed!'); ?></p>
                             <?php endif; ?>                                
                         </div>
                     </div>

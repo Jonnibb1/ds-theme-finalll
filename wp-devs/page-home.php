@@ -22,7 +22,7 @@
                         </div>
                     </section>
                     <section class="services">
-                        <h2>Services</h2>
+                        <h2><?php esc_html_e('Services' , 'wp-devs'); ?></h2>
                         <div class="container">
                             <div class="services-item">
                                 <?php 
@@ -48,7 +48,7 @@
                         </div>
                     </section>
                     <section class="home-blog">
-                        <h2>Latest News</h2>
+                        <h2> <?php esc_html_e('Latest News','wp-devs'); ?> </h2>
                         <div class="container">
                             <?php 
 
@@ -71,7 +71,7 @@
                                     endwhile;
                                     wp_reset_postdata();
                                 else: ?>
-                                    <p>Nothing yet to be displayed!</p>
+                                      <p><?php esc_html_e('Nothing yet to be displayed!'); ?></p>
                             <?php endif; ?>                                
                         </div>
                     </section>
